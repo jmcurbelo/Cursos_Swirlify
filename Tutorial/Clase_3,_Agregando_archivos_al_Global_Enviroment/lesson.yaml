@@ -1,0 +1,10 @@
+- Class: meta
+  Course: Tutorial
+  Lesson: Clase 3, Agregando archivos al Global Enviroment
+  Author: José Miguel Moya Curbelo
+  Type: Standard
+  Organization: Data Science
+  Version: 2.4.5
+
+- Class: text
+  Output: En esta clase hemos cargado unos datos de forma automática al iniciar la clase en el entorno global, esto se logró modificando el archivo initLesson.R (reviselo)

@@ -1,0 +1,17 @@
+- Class: meta
+  Course: Tutorial
+  Lesson: Clase 1, Diferentes tipos de preguntas
+  Author: José Miguel Moya Curbelo
+  Type: Standard
+  Organization: Data Science
+  Version: 2.4.5
+
+- Class: text
+  Output: Con el comando wq_ agregamos las preguntas, esta en específico es de tipo mensaje wq_message()
+
+
+- Class: cmd_question
+  Output: Con esta wq_command podemos pedir comandos en consola. Ejemplo sume 2 más 2
+  CorrectAnswer: 2+2
+  AnswerTests: omnitest(correctExpr='2+2')
+  Hint: Es fácil

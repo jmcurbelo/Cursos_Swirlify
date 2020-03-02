@@ -1,0 +1,17 @@
+- Class: meta
+  Course: Tutorial
+  Lesson: Clase 2, agregando graficas
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.5
+
+- Class: figure
+  Output: Con el comando wq_figure agregaremos una figura desde un Script que debe esta en la misma carpeta de la lección. Está será una nueva figura en este caso (new)
+  Figure: fig1.R
+  FigureType: new
+
+- Class: figure
+  Output: Ahora agregamos elementos a una grafica, en este caso una linea horizontal, solo se modifica el parametro FigureType de new a add
+  Figure: fig2.R
+  FigureType: add
